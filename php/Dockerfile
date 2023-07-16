@@ -3,7 +3,7 @@ FROM php:8.1-fpm-alpine
 
 RUN docker-php-ext-install pdo pdo_mysql
 
-# allow suer user - set this if you use Composer as a
+# allow super user - set this if you use Composer as a
 # super user at all times like in docker container
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
